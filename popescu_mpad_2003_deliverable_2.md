@@ -1,11 +1,13 @@
-**Date**<br>
-**Course Code & Course Name**<br>
-**Student's First Name & Last Name**<br>
+**Nov 1st, 2026**<br>
+**MPAD2003A Introductory Data Storytelling**<br>
+**Andra Popescu**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
 # Deliverable 2: Exploratory Data Analysis (EDA)
 
 Use one hashtag symbol (`#`) to create a level 1 heading like this one.
+
+# Deliverable 2: Exploratory Data Analysis (EDA)
 
 ## Foreword
 
@@ -25,12 +27,17 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 ## 1. Getting Data
 
 Use two hashtag symbols (`##`) to create a level 2 heading like this one.
+## I will analyze the City of Ottawa dataset that looks at Current Year Service Requests to see which parts of the city have the most difficulty to be accessible during the winter time. 
 
+## I have come across problems when importing this dataset into Google Sheets. I used the =IMPORTDATA("") method, and kept getting an error. I then had to just download it and use Numbers on my Mac to organize the data to just display nov-march (wintertime). I did so by clicking organize, filter, then I hid all the months which aren't nov-march , like 2026-09 for example. Then, I downloaded it and imported it into Google Sheets.
+
+## Link to this year's data: https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about
 To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
 
-![](import-screen-capture.png)<br>
+![](Screenshot_1.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
 
+## Link to my spreadsheet: https://docs.google.com/spreadsheets/d/1wNH6fUPj81aFi2rzRp6GTvcugoMNXg1k8KAyp53HXLw/edit?usp=sharing
 **Here are examples of functions and lines of code put in grey boxes:**
 
 1. If you name a function, put it between "angled" quotation marks like this: `IMPORTHTML`.
