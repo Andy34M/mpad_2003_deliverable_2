@@ -4,10 +4,7 @@
 **Presented to Jean-Sébastien Marier**<br>
 
 # Deliverable 2: Exploratory Data Analysis (EDA)
-
-Use one hashtag symbol (`#`) to create a level 1 heading like this one.
-
-# Deliverable 2: Exploratory Data Analysis (EDA)
+# Ottawa's Snowy Roads
 
 ## Foreword
 
@@ -27,31 +24,32 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 ## 1. Getting Data
 
 Use two hashtag symbols (`##`) to create a level 2 heading like this one.
-## I will analyze the City of Ottawa dataset that looks at Current Year Service Requests to see which parts of the city have the most difficulty to be accessible during the winter time. 
 
-## I have come across problems when importing this dataset into Google Sheets. I used the =IMPORTDATA("") method, and kept getting an error. I then had to just download it and use Numbers on my Mac to organize the data to just display nov-march (wintertime). I did so by clicking organize, filter, then I hid all the months which aren't nov-march , like 2026-09 for example. Then, I downloaded it and imported it into Google Sheets. Sadly, it turned out to be a waste of time as all of it ended up exporting to the spreadsheet.
+I will analyze the City of Ottawa dataset that looks at Current Year Service Requests to see which parts of the city have the most difficulty to be accessible during the winter time. 
 
-## Link to this year's data: https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about
+I have come across problems when importing this dataset into Google Sheets. I used the =IMPORTDATA("") method, and kept getting an error. I then had to just download it and use Numbers on my Mac to organize the data to just display nov-march (wintertime). I did so by clicking organize, filter, then I hid all the months which aren't nov-march , like 2026-09 for example. Then, I downloaded it and imported it into Google Sheets. Sadly, it turned out to be a waste of time as all of it ended up exporting to the spreadsheet.
 
-## Link to last year's data: https://open.ottawa.ca/documents/87abd7493677492f83295ec56e6a4929/about
+Link to this year's data: https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about
+
+Link to last year's data: https://open.ottawa.ca/documents/87abd7493677492f83295ec56e6a4929/about
 
 
 To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
 
 ![](Screenshot_1.png)<br>
-*Figure 1: The "Import file" prompt on Google Sheets for this year's data.*
+*Figure 1: The Google Sheets spreadsheet for this year's data.*
 ![](Screenshot_2.png)<br>
-*Figure 2: The "Import file" prompt on Google Sheets for last year's data.*
+*Figure 2: The Google Sheets spreadsheet for last year's data.*
 
-## Link to this year's spreadsheet: https://docs.google.com/spreadsheets/d/1wNH6fUPj81aFi2rzRp6GTvcugoMNXg1k8KAyp53HXLw/edit?usp=sharing
+Link to this year's spreadsheet: https://docs.google.com/spreadsheets/d/1wNH6fUPj81aFi2rzRp6GTvcugoMNXg1k8KAyp53HXLw/edit?usp=sharing
 
-## Link to last year's spreadsheet: https://docs.google.com/spreadsheets/d/1NcuhOlY8AEkwyX7-Ha-xpFqzldZGICvhLdP-LRDAzek/edit?usp=sharing
+Link to last year's spreadsheet: https://docs.google.com/spreadsheets/d/1NcuhOlY8AEkwyX7-Ha-xpFqzldZGICvhLdP-LRDAzek/edit?usp=sharing
 
-## There are 11 columns for both, titled: Service Request ID | Numéro de demande, Status | État, Type | Type, Description | Description, Opened Date | Date d'ouverture, Closed Date | Date de fermeture, Address | Adresse, Latitude | Latitude, Longitude | Longitude, Ward | Quartier, Channel | Voie de service. There are 372070 rows total in last year's dataset and 316776 rows for this year's dataset. The data is organized and easy to follow, however it is a lot of information and is awfully overwhelming.
+There are 11 columns for both, titled: Service Request ID | Numéro de demande, Status | État, Type | Type, Description | Description, Opened Date | Date d'ouverture, Closed Date | Date de fermeture, Address | Adresse, Latitude | Latitude, Longitude | Longitude, Ward | Quartier, Channel | Voie de service. There are 372070 rows total in last year's dataset and 316776 rows for this year's dataset. The data is organized and easy to follow, however it is a lot of information and is awfully overwhelming.
 
-## Column A contains nominal values since each service request ID is unique, but not in order. Column B contains ordinal variables, with the options being active, resolved, cancelled. I consider columns E and F to be intervals (elapsed time).
+Column A contains nominal values since each service request ID is unique, but not in order. Column B contains ordinal variables, with the options being active, resolved, cancelled. I consider columns E and F to be intervals (elapsed time).
 
-## Surprising information: a lot of addresses and wards are missing, which will make my project a lot harder to complete.
+Surprising information: a lot of addresses and wards are missing, which will make my project a lot harder to complete.
 
 **Here are examples of functions and lines of code put in grey boxes:**
 
@@ -80,7 +78,14 @@ As seen in Bounegru & Gray (2011), a data visualization should be clear...
 
 ### 2.2. Cleaning Data
 
-Insert text here.
+![](Screenshot_3.png)<br>
+*Figure 3: Filter the Description column so that text must contain "snow".*
+
+![](Screenshot_4.png)<br>
+*Figure 4: Replacing bilingual into only English.*
+
+![](Screenshot_5.png)<br>
+*Figure 5: Cleaned up spreadsheet.*
 
 ### 2.3. Analyzing Data
 
