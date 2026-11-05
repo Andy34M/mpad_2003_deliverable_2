@@ -16,8 +16,7 @@ Link to this year's data: https://open.ottawa.ca/documents/65fe42e2502d442b8a774
 
 Link to last year's data: https://open.ottawa.ca/documents/87abd7493677492f83295ec56e6a4929/about
 
-
-To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
+I am hoping to find information on how long it takes to solve a snow related request and would like to understand if it's a whole city issue, or if it's ward-dependent.
 
 ![](Screenshot_1.png)<br>
 *Figure 1: The Google Sheets spreadsheet for this year's data.*
@@ -35,7 +34,6 @@ There are 11 columns for both, titled: Service Request ID | Numéro de demande, 
 Column A contains nominal values since each service request ID is unique, but not in order. Column B contains ordinal variables, with the options being active, resolved, cancelled. I consider columns E and F to be intervals (elapsed time).
 
 Surprising information: a lot of addresses and wards are missing, which will make my project a lot harder to complete.
-
 
 ## 2. Understanding Data
 
@@ -100,8 +98,13 @@ For the interview I'd like to stay on track with my "mission" and reach out to t
 
 ## 4. References
 
-Include a list of your references here. Please follow [APA](https://apastyle.apa.org/style-grammar-guidelines/references) or [MLA](https://www.mla.org/MLA-Style) guidelines for references. Hanging paragraphs aren't required though.
+Statistics Canada. (2002, October 15). *Statistics: Power from data! Organizing data: Variables*. Www150.Statcan.Gc.Ca.[https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214817-eng.htm] https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch8/5214817-eng.htm.
 
-**Here's an example:**
+Statistics Canada. (2010, October 25). *Learning resources: Statistics: Power from data! Graph types: Bar graphs*. Statcan.Gc.Ca. [https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/bargraph-diagrammeabarres/5214818-eng.htm] https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/bargraph-diagrammeabarres/5214818-eng.htm.
 
-Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
+Marier J.S. (2026, November). *Using IMPORT Functions to Import Content Into Google Sheets* MPAD2003-A Introduction to Data Storytelling. [https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810904/View] https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810904/View.
+
+Marier J.S. (2026, November). *Basic Data Analysis Techniques* MPAD2003-A Introduction to Data Storytelling. [https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810876/View] https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810876/View.
+
+Marier J.S. (2026, November). *Using Pivot Tables in Google Sheets* MPAD2003-A Introduction to Data Storytelling. [https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810877/View] https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810877/View.
+
