@@ -66,9 +66,11 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ### 2.1. VIMO Analysis
 
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
-
-Insert text here.
+For this section, I will use the data from the current year. 
+V-Valid: Column B looks at the status of the demand, in this case it's between Active and Resolved.
+I-Invalid: Column G of Total Time Passed contains amounts that are in the negatives, which do not make sense. So that means that the issue was resolved before the issue was reported. There is also some information in column F about closing dates happening this summer which is a bit odd for a winter request. 
+M-Missing: A lot of addresses have "\N", it doesn't matter much since we still get the ward, but it's still missing information.
+O-Outlier: I'm not seeing any outliers, but I do see that for Total Time Passed there are a lot of numbers in the hundreds.
 
 Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
@@ -78,18 +80,32 @@ As seen in Bounegru & Gray (2011), a data visualization should be clear...
 
 ### 2.2. Cleaning Data
 
+I started by adding a filter on column D so that only jobs that revolve around snow would appear.
+
 ![](Screenshot_3.png)<br>
 *Figure 3: Filter the Description column so that text must contain "snow".*
+
+I then removed the french part of the information in description (column D) because it was beggining to be to hard to read. I did so by using find and replace while having column stats open so I can see what I need to type.
 
 ![](Screenshot_4.png)<br>
 *Figure 4: Replacing bilingual into only English.*
 
+I found these columns irrelevant to my project, so I deleted them.
+
 ![](Screenshot_5.png)<br>
-*Figure 5: Cleaned up spreadsheet.*
+*Figure 5: Deleting the longitude and latitude comlumns.*
+
+![](Screenshot_6.png)<br>
+*Figure 5: Cleaned up spreadsheet for this year's data.*
+
+![](Screenshot_7.png)<br>
+*Figure 5: Cleaned up spreadsheet for last year's data.*
+
+Other things I did were related to formatting such as moving all the \N's to the right side of the screen.
 
 ### 2.3. Analyzing Data
 
-Insert text here.
+
 
 **This section should include a screen capture of your pivot table, like so:**
 
