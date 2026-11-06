@@ -8,9 +8,9 @@
 
 ## 1. Getting Data
 
-I will analyze the City of Ottawa dataset that looks at Current Year Service Requests to see which parts of the city have the most difficulty to be accessible during the winter time. 
+I will analyze the City of Ottawa dataset that looks at Current Year Service Requests to see which parts of the city have the most difficulty to be accessible during the winter time. Accessibility during the wintertime is crucial for the people living in Ottawa, I have a personal connection to this issue. In my neighbourhood alone I've noticed that weeks will go by without clearing a very specific sidewalk. I have witnessed children, the elderly and anyone using that sidewalk struggle, especially since it's a bus stop. I am hoping that I will able to find out if it's a weather problem, or a city problem.
 
-I have come across problems when importing this dataset into Google Sheets. I used the =IMPORTDATA("") method, and kept getting an error. I then had to just download it and use Numbers on my Mac to organize the data to just display nov-march (wintertime). I did so by clicking organize, filter, then I hid all the months which aren't nov-march , like 2026-09 for example. Then, I downloaded it and imported it into Google Sheets. Sadly, it turned out to be a waste of time as all of it ended up exporting to the spreadsheet.
+I have come across problems when importing this dataset into Google Sheets. I used the `=IMPORTDATA("")` method, and kept getting an error. I then had to just download it and use Numbers on my Mac to organize the data to just display nov-march (wintertime). I did so by clicking organize, filter, then I hid all the months which aren't nov-march , like 2026-09 for example. Then, I downloaded it and imported it into Google Sheets. Sadly, it turned out to be a waste of time as all of it ended up exporting to the spreadsheet.
 
 Link to this year's data: https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about
 
@@ -102,9 +102,9 @@ Statistics Canada. (2002, October 15). *Statistics: Power from data! Organizing 
 
 Statistics Canada. (2010, October 25). *Learning resources: Statistics: Power from data! Graph types: Bar graphs*. Statcan.Gc.Ca. [https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/bargraph-diagrammeabarres/5214818-eng.htm] https://www150.statcan.gc.ca/n1/edu/power-pouvoir/ch9/bargraph-diagrammeabarres/5214818-eng.htm.
 
-Marier J.S. (2026, November). *Using IMPORT Functions to Import Content Into Google Sheets* MPAD2003-A Introduction to Data Storytelling. [https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810904/View] https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810904/View.
+Marier J.S. (2026, November). *Using IMPORT Functions to Import Content Into Google Sheets* MPAD2003-A Introduction to Data Storytelling. Carleton University Brightspace [https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810904/View] https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810904/View.
 
-Marier J.S. (2026, November). *Basic Data Analysis Techniques* MPAD2003-A Introduction to Data Storytelling. [https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810876/View] https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810876/View.
+Marier J.S. (2026, November). *Basic Data Analysis Techniques* MPAD2003-A Introduction to Data Storytelling. Carleton University Brightspace [https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810876/View] https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810876/View.
 
-Marier J.S. (2026, November). *Using Pivot Tables in Google Sheets* MPAD2003-A Introduction to Data Storytelling. [https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810877/View] https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810877/View.
+Marier J.S. (2026, November). *Using Pivot Tables in Google Sheets* MPAD2003-A Introduction to Data Storytelling. Carleton University Brightspace [https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810877/View] https://brightspace.carleton.ca/d2l/le/content/451355/viewContent/4810877/View.
 
